@@ -1,0 +1,25 @@
+      text-align: center;
+      padding: 1rem;
+    }
+
+    @media (max-width: 600px) {
+      .profile-pic {
+        width: 160px;
+        height: 160px;
+        bottom: -80px;
+      }
+
+      .user-section h1 {
+        font-size: 1.5rem;
+      }
+
+      .social-links img {
+        width: 24px;
+        height: 24px;
+      }
+
+      .nav-links {
+        flex-direction: column;
+        gap: 0.5rem;
+      }
+        }
