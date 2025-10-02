@@ -2,7 +2,7 @@ services:
   - type: web
     name: scrapetube-json-service
     env: python
-    rootDir: scrapetube-json-service
+    rootDir: /api/yt/
     buildCommand: pip install -r requirements.txt
     startCommand: python entrypoint.py
     autoDeploy: true
